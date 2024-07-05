@@ -9,7 +9,7 @@ The dataset used in this project is available publicly on Kaggle: https://www.ka
 The dataset includes:
 - Store information (1,115 stores with 10 variables)
 - Historical sales data (01/01/2013 to 31/07/2015)
-- Test data for prediction (01/08/2015 to 17/09/2015
+- Test data for prediction (01/08/2015 to 17/09/2015)
 
 ## Methodology
 1. Data Preparation and Cleaning
