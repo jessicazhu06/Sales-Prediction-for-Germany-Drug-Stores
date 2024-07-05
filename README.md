@@ -11,7 +11,6 @@ The dataset includes:
 - Historical sales data (01/01/2013 to 31/07/2015)
 - Test data for prediction (01/08/2015 to 17/09/2015
 
-
 ## Methodology
 1. Data Preparation and Cleaning
    - Handled missing values in store dataset
@@ -46,16 +45,22 @@ The dataset includes:
 ## Results
 Our final model achieved an RMSPE of 0.1995 on the test set.
 
-## Repository Structure
-- `data/`: Contains the raw and processed datasets
-- `notebooks/`: Jupyter notebooks for exploratory data analysis
-- `src/`: Python scripts for data processing and modeling
-- `results/`: Output files and visualizations
-
-## Requirements
-See `requirements.txt` for a list of required Python packages.
-
 ## Future Work
 - Incorporate weather data for potentially improved predictions
 - Experiment with ensemble methods combining multiple models
 - Develop a more robust approach for handling stores with zero sales on open days
+
+## Repository Structure
+- `notebooks/`: Jupyter notebooks for exploratory data analysis
+- `src/`: Python scripts for data processing and modeling
+- `results/`: Output files and visualizations
+
+## To run this project:
+1. Download the dataset from Kaggle and place the CSV files in a `data/` directory in the root of this project.
+2. Ensure you have the required Python packages installed: pip install -r requirements.txt
+3. Run the preprocessing script: src/data_preprocessing.py
+4. Run the modeling and evaluation script: src/modeling_and_evaluation.py
+5. Alternatively, run the entire pipeline using: main.py
+   
+## Requirements
+See `requirements.txt` for a list of required Python packages.
