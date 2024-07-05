@@ -1,4 +1,4 @@
-# ROSSMANN Sales Prediction Project
+# Sales Prediction Project
 
 ## Overview
 This project aims to predict sales for ROSSMANN, a large drug store chain in Germany. Using historical sales data from 1,115 stores, we developed a model to forecast sales for the next 6 weeks.
@@ -51,7 +51,7 @@ Our final model achieved an RMSPE of 0.1995 on the test set.
 - Develop a more robust approach for handling stores with zero sales on open days
 
 ## Repository Structure
-- `notebooks/`: Jupyter notebooks for exploratory data analysis
+- `notebook/`: A jupyter notebook for data cleaning and exploratory data analysis
 - `src/`: Python scripts for data processing and modeling
 - `results/`: Output files and visualizations
 
