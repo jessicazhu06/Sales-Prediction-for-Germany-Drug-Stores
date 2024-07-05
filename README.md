@@ -57,10 +57,10 @@ Our final model achieved an RMSPE of 0.1995 on the test set.
 
 ## To run this project:
 1. Download the dataset from Kaggle and place the CSV files in a `data/` directory in the root of this project.
-2. Ensure you have the required Python packages installed: pip install -r requirements.txt
-3. Run the preprocessing script: src/data_preprocessing.py
-4. Run the modeling and evaluation script: src/modeling_and_evaluation.py
-5. Alternatively, run the entire pipeline using: main.py
+2. Ensure you have the required Python packages installed: **pip install -r requirements.txt**
+3. Run the preprocessing script: **src/data_preprocessing.py**
+4. Run the modeling and evaluation script: **src/modeling_and_evaluation.py**
+5. Alternatively, run the entire pipeline using: **main.py**
    
 ## Requirements
 See `requirements.txt` for a list of required Python packages.
