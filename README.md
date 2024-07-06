@@ -1,5 +1,16 @@
 # Sales Prediction Project
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Data](#data)
+3. [Repository Structure](#repository-structure)
+4. [Methodology](#methodology)
+5. [Key Findings](#key-findings)
+6. [Results](#results)
+7. [Future Work](#future-work)
+8. [Running the Project](#to-run-this-project)
+9. [Requirements](#requirements)
+
 ## Overview
 This project aims to predict sales for ROSSMANN, a large drug store chain in Germany. Using historical sales data from 1,115 stores, we developed a model to forecast sales for the next 6 weeks.
 
