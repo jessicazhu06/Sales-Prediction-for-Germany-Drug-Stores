@@ -24,7 +24,7 @@ The dataset includes:
 
 ## Repository Structure
 - `notebook/`: A jupyter notebook for data cleaning and exploratory data analysis
-- `src/`: Python scripts for data processing and modeling
+- `src/`: Python scripts for data processing and modelling
 - `results/`: Output files and visualisations
 
 ## Methodology
@@ -43,7 +43,7 @@ The dataset includes:
    - Created features for competition and promotion duration
    - Encoded categorical variables
 
-4. Modeling
+4. Modelling
    - Used XGBoost Regressor
    - Performed hyperparameter tuning using GridSearchCV
    - Evaluated model on test data using Root Mean Square Percentage Error (RMSPE)
