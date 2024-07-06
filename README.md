@@ -21,7 +21,12 @@ The dataset includes:
 - Store information (1,115 stores with 10 variables)
 - Historical sales data (01/01/2013 to 31/07/2015)
 - Test data for prediction (01/08/2015 to 17/09/2015)
-  
+
+## Repository Structure
+- `notebook/`: A jupyter notebook for data cleaning and exploratory data analysis
+- `src/`: Python scripts for data processing and modeling
+- `results/`: Output files and visualisations
+
 ## Methodology
 1. Data Preparation and Cleaning
    - Handled missing values in store dataset
