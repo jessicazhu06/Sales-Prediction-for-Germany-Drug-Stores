@@ -55,11 +55,11 @@ The dataset includes:
    - However, the impact of competition diminishes over time, possibly due to market segmentation or improved competitive strategies.
 
 ## Results
-Model Performance: Our final XGBoost model achieved an RMSPE of 0.1995 (19.95%) on the test set, indicating strong predictive power.
+- Model Performance: Our final XGBoost model achieved an RMSPE of 0.1995 (19.95%) on the test set, indicating strong predictive power.
 
-Feature Insights: SHAP analysis revealed that recent sales history, promotion status, and store-specific factors are the strongest predictors of future sales.
+- Feature Insights: SHAP analysis revealed that recent sales history, promotion status, and store-specific factors are the strongest predictors of future sales.
 
-**Actionable Insights:**
+- Actionable Insights:
    - Stores should focus on product differentiation to mitigate competition effects.
    - Promotional strategies should be tailored by store type and day of the week for maximum impact.
    - Inventory management should account for both short-term (weekly) and long-term (seasonal) sales patterns identified by the model.
