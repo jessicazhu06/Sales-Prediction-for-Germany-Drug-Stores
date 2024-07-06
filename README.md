@@ -3,11 +3,11 @@
 ## Table of Contents
 1. [Overview](#overview)
 2. [Data](#data)
-3. [Repository Structure](#repository-structure)
-4. [Methodology](#methodology)
-5. [Key Findings](#key-findings)
-6. [Results](#results)
-7. [Future Work](#future-work)
+3. [Methodology](#methodology)
+4. [Key Findings](#key-findings)
+5. [Results](#results)
+6. [Future Work](#future-work)
+7. [Repository Structure](#repository-structure)
 8. [Running the Project](#to-run-this-project)
 9. [Requirements](#requirements)
 
@@ -21,11 +21,6 @@ The dataset includes:
 - Store information (1,115 stores with 10 variables)
 - Historical sales data (01/01/2013 to 31/07/2015)
 - Test data for prediction (01/08/2015 to 17/09/2015)
-  
-## Repository Structure
-- `notebook/`: A jupyter notebook for data cleaning and exploratory data analysis
-- `src/`: Python scripts for data processing and modeling
-- `results/`: Output files and visualisations
   
 ## Methodology
 1. Data Preparation and Cleaning
@@ -80,6 +75,11 @@ The dataset includes:
 - Experiment with ensemble methods combining multiple models
 - Develop a more robust approach for handling stores with zero sales on open days
 
+## Repository Structure
+- `notebook/`: A jupyter notebook for data cleaning and exploratory data analysis
+- `src/`: Python scripts for data processing and modelling
+- `results/`: Output files and visualisations
+  
 ## To run this project:
 1. Download the dataset from Kaggle and place the CSV files in a `data/` directory in the root of this project.
 2. Ensure you have the required Python packages installed: **pip install -r requirements.txt**
