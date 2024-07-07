@@ -58,15 +58,15 @@ The dataset includes:
    - Yearly seasonality is evident, with sales peaks during holiday seasons (Christmas, Easter) and summer months.
 
 3. Promotion Impact:
-   - Promotions have a significant positive impact on sales, with an average increase of 12% across all store types.
+   - Promotions have a significant positive impact on sales, with an average increase of 18.63% across all store types.
    - The effectiveness of promotions varies by store type and day of the week, suggesting the need for targeted promotional strategies.
 
 4. Competition Effects:
-   - Stores with nearby competitors (within 1km) show 5% lower average sales, highlighting the importance of location strategy.
+   - Stores with nearby competitors (within 1km) show 6.79% lower average sales, highlighting the importance of location strategy.
    - However, the impact of competition diminishes over time, possibly due to market segmentation or improved competitive strategies.
 
 ## Results
-- Model Performance: Our final XGBoost model achieved an RMSPE of 0.1995 (19.95%) on the test set, indicating strong predictive power.
+- Model Performance: Our final XGBoost model achieved an RMSPE of 0.0995 (9.95%) on the test set, indicating strong predictive power.
 
 - Feature Insights: SHAP analysis revealed that recent sales history, promotion status, and store-specific factors are the strongest predictors of future sales.
 
